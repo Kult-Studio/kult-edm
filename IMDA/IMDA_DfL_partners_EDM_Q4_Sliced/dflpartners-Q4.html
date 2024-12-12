@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+    <title>Digital Skills for Life</title>
+	
+	<style type="text/css" media="screen">
+		@font-face { font-family: "VAG Rounded Black"; src: url("fonts/VAG Rounded Black.woff") format('woff');}
+		@font-face { font-family: "VAG Rounded Bold"; src: url("fonts/VAG Rounded Bold.woff") format('woff');}
+		@font-face { font-family: "VAG Rounded Light"; src: url("fonts/VAG Rounded Light.woff") format('woff');}
+		
+		body { padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#f4f4f4; -webkit-text-size-adjust:none }
+		a { color:#fff; text-decoration:none; font-family:'VAG Rounded Bold', sans-serif;}
+		p { padding:0 !important; margin:0 !important } 
+		img { -ms-interpolation-mode: bicubic; /* Allow smoother rendering of resized image in Internet Explorer */ }
+		.mcnPreviewText { display: none !important; }
+		
+		.desktop-br {display: block;}
+    	.mobile-br {display: inline;}
+		
+		.plr{ padding: 0 33px;}
+		.pt25 {padding-top: 25px;}
+		.ptb {padding-top: 25px !important; padding-bottom: 25px !important;}
+		.pl {padding-left: 33px}
+		.pr {padding-right: 33px}
+		
+		
+		.textColL { text-align: right;}
+		.textColR { text-align: left;}
+		
+		.columnL {padding: 0 0 0 33px !important;}
+		.columnR {padding: 0 33px 0 0 !important;}
+		
+		
+		.columnLicon {padding: 0 0 0 33px !important;}
+		.columnRicon {padding: 0 33px 0 0 !important;}
+		
+		
+		/* Mobile styles */
+		@media only screen and (max-device-width: 360px), only screen and (max-width: 640px) {
+			.mobile-shell { width: 100% !important; min-width: 100% !important; }
+			.bg { background-size: 100% auto !important; -webkit-background-size: 100% auto !important; }
+			
+			
+			.desktop-br {display: inline;}
+    		.mobile-br {display: block;}
+			
+			.textColL { text-align: center !important;}
+			.textColR { text-align: center !important;}
+			
+			
+			
+			.text-header,
+			.m-center { text-align: center !important; }
+			
+			.center { margin: 0 auto !important; }
+			.container { padding: 20px 10px !important }
+			
+			.td { width: 100% !important; min-width: 100% !important; }
+
+			.m-br-15 { height: 15px !important; }
+			.p30-15 { padding: 30px 15px !important; }
+			.p0-15-30 { padding: 0px 15px 30px 15px !important; }
+			.p0-15 { padding: 0px 15px !important; }
+			.pt0 { padding-top: 0px !important; }
+			.mpb30 { padding-bottom: 30px !important; }
+			.mpb15 { padding-bottom: 15px !important; }
+			.plr{ padding: 0 33px !important;}
+			.pt25 {padding-top: 25px !important;}
+			.ptb {padding-top: 25px !important; padding-bottom: 25px !important;}
+			
+
+			.m-td,
+			.m-hide { display: none !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important; min-height: 0 !important; }
+
+			.m-block { display: block !important; }
+
+			.fluid-img img { width: 100% !important; max-width: 100% !important; height: auto !important; }
+
+			.column,
+			.column-dir,
+			.column-top,
+			.column-empty,
+			.column-empty2,
+			.column-dir-top { float: left !important; width: 100% !important; display: block !important; }
+
+			.column-empty { padding-bottom: 30px !important; }
+			.column-empty2 { padding-bottom: 10px !important; }
+			
+			.columnL {float: left !important; width: 100% !important; display: block !important; padding: 0 33px !important;}
+			.columnR {float: left !important; width: 100% !important; display: block !important; padding: 0 33px !important;}
+			
+			.columnLicon {width: 100% !important; display: block !important; padding: 0 33px!important; text-align: center!important;}
+			.columnRicon {width: 100% !important; display: block !important; padding: 0 32px 0 92px!important; text-align: center!important;}
+
+			.content-spacing { width: 15px !important; }
+			.column-topicon {float: left !important; width: 100% !important; display: block !important; text-align: center !important;}
+			.col-icon {padding: 18px 18px 0px 18px; align-content: center; float: left !important; width: 100% !important; display: block !important;}
+			.dlbtn {height: 35px;}
+			
+			* {box-sizing: border-box;}
+
+			/* Create two equal columns that floats next to each other */
+			.column1 {
+			  float: left;
+
+
+			}
+
+			.column2 {
+			  float:inherit;
+
+
+			}
+			/* Clear floats after the columns */
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+		}
+		
+		
+
+    </style>
+</head>
+
+<body class="body" style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#f4f4f4; -webkit-text-size-adjust:none;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f4f4f4">
+		<tr>
+			<td align="center" valign="top">
+				
+				<!-- MOBILE SHELL -->
+				<table width="640" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+					<tr>
+						<td class="td" style="width:640px; min-width:640px; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								
+								<!-- HEADER IMG & INTRO-->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<img src="dfl-header-intro.png" width="640" height="auto" alt="">
+									</td>
+								</tr>
+								<!-- END HEADER IMG & INTRO -->	
+								
+								<!-- DFL STATS -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<img src="dfl-stats.png" width="640" height="auto" alt="">
+									</td>
+								</tr>
+								<!-- END DFL STATS -->
+								
+								
+								<!-- DFL EMAIL -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="mailto:DFL_Partners@imda.gov.sg" target="_blank"><img src="dfl-email.png" width="640" height="auto" alt=""></a>
+									</td>
+								</tr>
+								<!-- END DFL EMAIL -->
+								
+								
+								<!-- DFL STORIES AND PROJECTS -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="https://www.digitalforlife.gov.sg/Be-Inspired/Stories/All-Stories" target="_blank"><img src="dfl-be-inspired.png" width="640" height="auto" alt=""></a>
+									</td>
+								</tr>
+								<!-- END DFL INSPIRED -->
+								
+								
+								<!-- DFL DIGITAL FOR LIFE FUND -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="https://www.digitalforlife.gov.sg/Contribute/Start-a-Project" target="_blank"><img src="dfl-whats-on.png" width="640" height="auto" alt=""></a>
+									</td>
+								</tr>
+								<!-- END DFL DIGITAL FOR LIFE FUND -->
+								
+								
+								<!-- DSL DONATE -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="https://www.digitalforlife.gov.sg/Contribute/Donate" target="_blank"><img src="dfl-donate.png" width="640" height="auto" alt=""></a>
+									</td>
+								</tr>
+								<!-- END DSL DONATE -->
+								
+								
+								<!-- Resources For Parents -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<img src="dfl-resources.png" width="640" height="auto" alt="">
+									</td>
+								</tr>
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="https://www.digitalforlife.gov.sg/learn/resources/all-resources/what-is-cyberbullying" target="_blank"><img src="dfl-cyberbullying.png" width="640" height="auto" alt=""></a>
+									</td>
+								</tr>
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="https://www.digitalforlife.gov.sg/home/learn/resources/all-resources/guide-your-child-in-leaving-better-digital-footprints" target="_blank"><img src="dfl-digital-trail.png" width="640" height="auto" alt=""></a>
+									</td>
+								</tr>
+								<!-- END Resources For Parents -->
+								
+								<!-- SOCIALS -->
+								<tr>
+									<td>
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											
+											<tr>
+												<td class="fluid-img">
+													<img src="spacer.jpg" width="224" height="50" alt="">
+												</td>
+												<td class="fluid-img">
+													<img src="social-text.jpg" width="76" height="50" alt="">
+												</td>
+												<td class="fluid-img">
+													<a href="https://www.facebook.com/digitalforlife.sg" target="_blank"><img src="social-fb.jpg" width="29" height="50" alt=""></a>
+												</td>
+												<td class="fluid-img">
+													<a href="https://www.instagram.com/digitalforlife.sg" target="_blank"><img src="social-ig.jpg" width="29" height="50" alt=""></a>
+												</td>
+												<td class="fluid-img">
+													<a href="https://www.digitalforlife.gov.sg/" target="_blank"><img src="social-web.jpg" width="29" height="50" alt=""></a>
+												</td>
+												<td class="fluid-img">
+													<a href="https://www.youtube.com/@digitalforlifesg" target="_blank"><img src="social-yt.jpg" width="29" height="50" alt=""></a>
+												</td>
+												<td class="fluid-img">
+													<img src="spacer.jpg" width="224" height="50" alt="">
+												</td>
+											</tr>
+										
+										</table>
+									</td>
+									
+								
+								</tr>
+								<!-- END SOCIALS -->
+								
+								
+								
+								<!-- FOOTER -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<img src="footer.jpg" width="640" height="65" alt="">
+									</td>
+								</tr>
+								<!-- END FOOTER -->
+								
+							</table>
+						</td>
+					</tr>
+				</table>
+				<!-- END MOBILE SHELL -->
+				
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
