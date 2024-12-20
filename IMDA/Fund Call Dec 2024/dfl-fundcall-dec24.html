@@ -50,6 +50,65 @@
 			/* Allow smoother rendering of resized image in Internet Explorer */
 		}
 
+		.mcnPreviewText {
+			display: none !important;
+		}
+
+		.desktop-br {
+			display: block;
+		}
+
+		.mobile-br {
+			display: inline;
+		}
+
+		.plr {
+			padding: 0 33px;
+		}
+
+		.pt25 {
+			padding-top: 25px;
+		}
+
+		.ptb {
+			padding-top: 25px !important;
+			padding-bottom: 25px !important;
+		}
+
+		.pl {
+			padding-left: 33px
+		}
+
+		.pr {
+			padding-right: 33px
+		}
+
+
+		.textColL {
+			text-align: right;
+		}
+
+		.textColR {
+			text-align: left;
+		}
+
+		.columnL {
+			padding: 0 0 0 33px !important;
+		}
+
+		.columnR {
+			padding: 0 33px 0 0 !important;
+		}
+
+
+		.columnLicon {
+			padding: 0 0 0 33px !important;
+		}
+
+		.columnRicon {
+			padding: 0 33px 0 0 !important;
+		}
+
 
 		/* Mobile styles */
 		@media only screen and (max-device-width: 360px),
@@ -64,6 +123,29 @@
 				-webkit-background-size: 100% auto !important;
 			}
 
+
+			.desktop-br {
+				display: inline;
+			}
+
+			.mobile-br {
+				display: block;
+			}
+
+			.textColL {
+				text-align: center !important;
+			}
+
+			.textColR {
+				text-align: center !important;
+			}
+
+
+
+			.text-header,
+			.m-center {
+				text-align: center !important;
+			}
 
 			.center {
 				margin: 0 auto !important;
@@ -104,6 +186,10 @@
 
 			.mpb15 {
 				padding-bottom: 15px !important;
+			}
+
+			.plr {
+				padding: 0 33px !important;
 			}
 
 			.pt25 {
@@ -233,111 +319,128 @@
 	</style>
 </head>
 
-<body class="body mobile-shell"
-	style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#f4f4f4; -webkit-text-size-adjust:none; font-size:0pt; line-height:0pt;font-weight:normal;">
-
-
-
-	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-
-		<!-- HEADER IMG -->
+<body class="body"
+	style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#f4f4f4; -webkit-text-size-adjust:none;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f4f4f4">
 		<tr>
-			<td class="fluid-img" align="center" valign="top">
-				<img src="header-img.png" width="600px" height="auto" alt="">
-			</td>
-		</tr>
-		<!-- END HEADER IMG -->
+			<td align="center" valign="top">
 
-
-		<!-- DFL THEMES -->
-		<tr>
-			<td class="fluid-img" align="center" valign="top">
-				<img src="dfl-themes.png" width="600px" height="auto" alt="">
-			</td>
-		</tr>
-		<!-- END DFL THEMES -->
-
-
-		<!-- DFL PROJECTS -->
-		<tr>
-			<td class="fluid-img" align="center" valign="top">
-				<img src="dfl-projects.png" width="600px" height="auto" alt="">
-			</td>
-		</tr>
-		<!-- END DFL PROJECTS -->
-
-
-		<!-- DFL EXPLORE PROJECTS -->
-		<tr>
-			<td class="fluid-img" align="center" valign="top">
-				<a href="https://www.digitalforlife.gov.sg/Be-Inspired/Stories/All-Stories?utm_source=partners&utm_medium=edm&utm_content=1&utm_campaign=OSFFundCall2025"
-					target="_blank"><img src="dfl-explore-projects.png" width="600px" height="auto" alt=""></a>
-			</td>
-		</tr>
-		<!-- END DFL EXPLORE PROJECTS -->
-
-
-		<!-- DFL SUBMIT PROPOSAL -->
-		<tr>
-			<td class="fluid-img" align="center" valign="top">
-				<a href="https://www.digitalforlife.gov.sg/Contribute/Start-a-Project?utm_source=partners&utm_medium=edm&utm_content=1&utm_campaign=OSFFundCall2025"
-					target="_blank"><img src="dfl-submitproposal.png" width="600px" height="auto" alt=""></a>
-			</td>
-		</tr>
-		<!-- END DFL SUBMIT PROPOSAL -->
-
-
-
-		<!-- DFL EMAIL -->
-		<tr>
-			<td class="fluid-img" align="center" valign="top">
-				<a href="mailto:DfL_Fund@imda.gov.sg" target="_blank">
-					<img src="dfl-email.png" width="600px" height="auto" alt="">
-				</a>
-			</td>
-		</tr>
-		<!-- END DFL EMAIL -->
-
-
-
-		<!-- SOCIALS -->
-		<tr>
-			<td>
-				<table width="600px" border="0" cellspacing="0" cellpadding="0" align="center" class="mobile-shell">
-
+				<!-- MOBILE SHELL -->
+				<table width="600" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
 					<tr>
-						<td class="fluid-img">
-							<img src="footer-spacer.png" width="100%" height="62px" alt="">
-						</td>
+						<td class="td"
+							style="width:600; min-width:600; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
 
-						<td class="fluid-img">
-							<a href="https://www.facebook.com/digitalforlife.sg" target="_blank"><img
-									src="social-fb.png" width="100%" height="62px" alt=""></a>
-						</td>
+								<!-- HEADER IMG -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<img src="header-img.png" width="600" height="auto" alt="">
+									</td>
+								</tr>
+								<!-- END HEADER IMG -->
 
-						<td class="fluid-img">
-							<a href="https://www.instagram.com/digitalforlife.sg" target="_blank"><img
-									src="social-ig.png" width="100%" height="62px" alt=""></a>
-						</td>
 
-						<td class="fluid-img">
-							<a href="https://www.tiktok.com/@digitalforlife.sg" target="_blank"><img src="social-tt.png"
-									width="100%" height="62px" alt=""></a>
+								<!-- DFL THEMES -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<img src="dfl-themes.png" width="600" height="auto" alt="">
+									</td>
+								</tr>
+								<!-- END DFL THEMES -->
+
+
+								<!-- DFL PROJECTS -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<img src="dfl-projects.png" width="600" height="auto" alt="">
+									</td>
+								</tr>
+								<!-- END DFL PROJECTS -->
+
+
+								<!-- DFL EXPLORE PROJECTS -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="https://www.digitalforlife.gov.sg/Be-Inspired/Stories/All-Stories?utm_source=partners&utm_medium=edm&utm_content=1&utm_campaign=OSFFundCall2025"
+											target="_blank"><img src="dfl-explore-projects.png" width="600"
+												height="auto" alt=""></a>
+									</td>
+								</tr>
+								<!-- END DFL EXPLORE PROJECTS -->
+
+
+								<!-- DFL SUBMIT PROPOSAL -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="https://www.digitalforlife.gov.sg/Contribute/Start-a-Project?utm_source=partners&utm_medium=edm&utm_content=1&utm_campaign=OSFFundCall2025"
+											target="_blank"><img src="dfl-submitproposal.png" width="600" height="auto"
+												alt=""></a>
+									</td>
+								</tr>
+								<!-- END DFL SUBMIT PROPOSAL -->
+
+
+
+								<!-- DFL EMAIL -->
+								<tr>
+									<td class="fluid-img" align="center" valign="top">
+										<a href="mailto:DfL_Fund@imda.gov.sg" target="_blank">
+											<img src="dfl-email.png" width="600" height="auto" alt="">
+										</a>
+									</td>
+								</tr>
+								<!-- END DFL EMAIL -->
+
+
+
+								<!-- SOCIALS -->
+								<tr>
+									<td>
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+											<tr>
+												<td class="fluid-img">
+													<img src="footer-spacer.png" width="100%" height="62" alt="">
+												</td>
+
+												<td class="fluid-img">
+													<a href="https://www.facebook.com/digitalforlife.sg"
+														target="_blank"><img src="social-fb.png" width="100%"
+															height="62" alt=""></a>
+												</td>
+
+												<td class="fluid-img">
+													<a href="https://www.instagram.com/digitalforlife.sg"
+														target="_blank"><img src="social-ig.png" width="100%"
+															height="62" alt=""></a>
+												</td>
+
+												<td class="fluid-img">
+													<a href="https://www.tiktok.com/@digitalforlife.sg"
+														target="_blank"><img src="social-tt.png" width="100%"
+															height="62" alt=""></a>
+												</td>
+											</tr>
+
+										</table>
+									</td>
+
+
+								</tr>
+								<!-- END SOCIALS -->
+
+
+
+							</table>
 						</td>
 					</tr>
-
 				</table>
+				<!-- END MOBILE SHELL -->
+
 			</td>
 		</tr>
-		<!-- END SOCIALS -->
-
-
-
 	</table>
-
-
-
-
 </body>
 
 </html>
