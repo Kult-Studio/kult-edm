@@ -8,6 +8,7 @@
 
     <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
+    <meta name="x-apple-disable-message-reformatting">
     <style type="text/css">
         /* Reset styles */
         body {
@@ -76,16 +77,31 @@
                 width: 100% !important;
             }
         }
+
+        /* Gmail iOS app fixes */
+        u ~ div .gmail {
+            min-width: 100vw;
+        }
+        
+        /* Gmail mobile-specific wrapper fix */
+        @media only screen and (max-width: 600px) {
+            .gmail-fix {
+                min-width: 600px !important;
+            }
+            .gmail-fix-wrap {
+                width: 100% !important;
+            }
+        }
     </style>
 </head>
 
 <body bgcolor="#ffffff">
     <!-- Wrapper table -->
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="gmail-fix">
         <tr>
             <td align="center">
                 <!-- Content table -->
-                <table width="600" border="0" cellspacing="0" cellpadding="0">
+                <table width="600" border="0" cellspacing="0" cellpadding="0" class="gmail-fix-wrap">
                     <tr>
                         <td align="center">
                             <!-- Main content table -->
