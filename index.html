@@ -1,11 +1,71 @@
-<!DOCTYPE html lang="en">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital for Life Fund Call</title>
+    <meta name="description" content="Directory listing for KULT EDM projects">
+    <title>KULT EDM Projects Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 </head>
 <body>
-    <a href="IMDA/Fund Call Dec 2024/dfl-fundcall-dec24.html">DFL Fund Call December 2024</a>
+    <h1>KULT EDM Projects Directory</h1>
+    <div class="directory-list">
+        <div class="directory">
+            <h2>IMDA</h2>
+            <ul>
+                <li><a href="IMDA/Fund Call Dec 2024/dfl-fundcall-dec24.html">DFL Fund Call December 2024</a></li>
+                <li><a href="IMDA/dfl-fundcall/feb2025/index.html">DFL Fund Call February 2025</a></li>
+                <li><a href="IMDA/IMDA_DfL_partners_EDM_Q4_Sliced/dflpartners-Q4.html">DFL Partners EDM Q4</a></li>
+                <li><a href="IMDA/dfl-partners-edm-q1-2025/index.html">DFL Partners EDM Q1 2025</a></li>
+            </ul>
+        </div>
+        
+        <div class="directory">
+            <h2>DBS</h2>
+            <ul>
+                <li><a href="DBS/DSA/lastcall/dsa-lastcall-feb25.html">DSA Last Call February 2025</a></li>
+                <li><a href="DBS/DSA/dsa-experiment/dsa-experiment.html">DSA Experiment</a></li>
+            </ul>
+        </div>
+        
+        <div class="directory">
+            <h2>Great Eastern</h2>
+            <ul>
+                <li><a href="GREAT EASTERN/GER_Heart_Campaign/GEHH-EDM3.html">Heart Campaign EDM</a></li>
+                <li><a href="GREAT EASTERN/GER Gut Health (slice)/ger-guthealth-edm6.html">Gut Health EDM</a></li>
+            </ul>
+        </div>
+        
+        <div class="directory">
+            <h2>Other Resources</h2>
+            <ul>
+                <li><a href="WSG/">WSG Projects</a></li>
+                <li><a href="WEB BANNERS/">Web Banners</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // GSAP Animation
+        window.addEventListener('load', () => {
+            // Animate title
+            gsap.to('h1', {
+                opacity: 1,
+                duration: 1,
+                ease: 'power2.out'
+            });
+
+            // Animate cards with stagger
+            gsap.to('.directory', {
+                opacity: 1,
+                y: 0,
+                duration: 0.8,
+                stagger: 0.15,
+                ease: 'power2.out',
+                delay: 0.3
+            });
+        });
+    </script>
 </body>
 </html>
